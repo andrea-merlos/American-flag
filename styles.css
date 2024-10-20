@@ -1,0 +1,41 @@
+*{
+    margin: 20px;
+}
+.container {
+    position: relative;
+    height: 456px;
+    width: 800px;
+}
+h1 {
+    text-align: left;
+    padding-left: 13%;
+    text-shadow: 0 5px 12px #bf0b30;
+}
+table {
+    height: 100%;
+    width: 100%;
+}
+
+table, td {
+    border: solid 0px;
+    border-collapse: collapse;
+    position: absolute;
+
+}
+
+tr:nth-child(odd) {
+    background: #bf0b30;
+}
+
+tr:nth-child(even) {
+    background: white;
+}
+
+.star-img img {
+left: 0;
+    width: 288px;
+    height: 211px;
+    position: absolute;
+    z-index: 10;
+}
+
